@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f8f7f3;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav>ul{
+     display: flex;
+     gap:1.2rem;
+     font-size: 1rem;
+     flex:0.4;
+}
+.img-div
+{
+    flex: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav img{
+    width: 6rem;
+    transform: rotate(-3deg);
+
+}
+.btn-div
+{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:1rem;
+    flex: 0.4;
+}
+.plain-button
+{
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.black-button
+{
+background-color: black;
+color: white;
+padding: 0.8rem 1.6rem;
+border-radius: 1.8rem;
+cursor: pointer;
+}
+.btn-div>div{
+    width: 0.4rem;
+    height: 0.4rem;
+     background-color: black;
+     border-radius: 50%;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    gap:3rem;
+
+}
+section>div{
+    font-size: 1rem;
+    background-color: yellow;
+}
+section>h1{
+    font-size: 3rem;
+
+}
+section>p
+{
+    font-size: 1.2rem;
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}   
+.section-button
+{
+    background-color: black;
+    color: #f8f7f3;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+
+}
+.section-button:hover
+{
+    background-color: rgb(155, 187, 26);
+    cursor: pointer;
+}
